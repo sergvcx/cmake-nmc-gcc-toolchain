@@ -28,7 +28,7 @@
           "displayName": "x86",
           "description": "Default build using Ninja Multi-Config generator",
           "generator": "Ninja Multi-Config",
-          "binaryDir": "${sourceDir}/build/x86-ninja",
+          "binaryDir": "${sourceDir}/build/x86-ninja"
         },
         {
           "name": "x86-msvc",
