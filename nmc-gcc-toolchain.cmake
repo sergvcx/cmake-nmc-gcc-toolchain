@@ -13,7 +13,7 @@ set(CMAKE_EXECUTABLE_SUFFIX_C ".abs" )
 set(CMAKE_EXECUTABLE_SUFFIX_ASM ".abs" )
 
 
-
+set(NM ON)
 set(CMAKE_C_COMPILER   "${TRIPLE}-gcc"     CACHE PATH "gcc"     FORCE)
 set(CMAKE_CXX_COMPILER "${TRIPLE}-g++"     CACHE PATH "g++"     FORCE)
 set(CMAKE_ASM_COMPILER "${TRIPLE}-gcc"     CACHE PATH "gcc"     FORCE)
